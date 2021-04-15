@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+ul {
+  list-style: none;
+}
+
+.top-wrapper{
+	border-bottom:solid 1px black;
+	padding-bottom:20px;
+}
+
+ .userImage {
+width:70px;
+height:70px;
+ float:left;
+ background-color:red;
+ display:block;
+ border-radius:50%;
+}
+
+.userInfo{
+display:inline-block;
+
+margin-left:10px;
+line-height:5px;
+}
+
+.varietyBtn{
+	float:right;
+}
+
+.textFlame{
+	border:1px solid black;
+	margin:5px 25px;
+	padding:5px 25px 30px 5px;
+}
+
+.writingTime{
+	float:right;
+}
+
+.deleteBtn{
+    float:right;
+}
+
+.upload{
+position:fixed;
+right:50px;
+bottom:50px;
+transition:1s;
+opacity:0.7;
+}
+.upload:hover{
+opacity:1;
+}
+
+
+
+
+
